@@ -85,3 +85,21 @@ hr {
     font-size: 0.9em;
     text-align: justify;
 }
+
+.media-carousel {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+.media-carousel a {
+    display: inline-block;
+    width: 60px;
+    margin: 10px;
+}
+
+.media-carousel a img {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 0 auto;
+}
