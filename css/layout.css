@@ -118,3 +118,44 @@ a.ico-keybase {
 .ground-based h2 {
     text-shadow: -1px -1px rgba(46, 46, 46, 0.2);
 }
+
+.dated-step .year {
+    text-align: right;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+.dated-step h4 {
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.list-badges .pill:hover {
+    background-color: rgba(248, 165, 83, 0.6);
+}
+
+.pill {
+    text-align: center;
+    background-color: rgba(248, 165, 83, 0.4);
+    margin: 4px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.row.dated-step + .row.dated-step {
+    margin-top: 15px;
+}
+
+a.muted-link {
+    color: inherit;
+}
+a.muted-link:hover {
+    text-decoration: none;
+}
+
+.half-opacity {
+    opacity: 0.5;
+}
