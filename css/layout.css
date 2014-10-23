@@ -144,6 +144,7 @@ a.ico-keybase {
     border-radius: 3px;
     display: inline-block;
     font-size: 0.9em;
+    cursor: default;
 }
 
 .row.dated-step + .row.dated-step {
