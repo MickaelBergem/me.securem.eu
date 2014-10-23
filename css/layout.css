@@ -1,5 +1,6 @@
 body {
     background-image: url(../img/gray-background.png);
+    padding-bottom: 15px;
 }
 
 header.structure-background {
@@ -158,4 +159,17 @@ a.muted-link:hover {
 
 .half-opacity {
     opacity: 0.5;
+}
+
+#githubfeed {
+/*    box-sizing: content-box;*/
+    margin-bottom: 20px;
+}
+
+.twitter-timeline {
+    width: 100% !important;
+}
+
+.panel-wrap {
+    margin-bottom: -7px;
 }

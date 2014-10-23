@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/layout.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 </head>
 <body>
     <header class="jumbotron structure-background">
@@ -40,7 +42,7 @@
         <div class="block row">
             <div class="col-sm-6 ground-based" id="education">
                 <h2>
-                    <i class="glyphicon glyphicon-book pull-right"></i>
+                    <span class="fa fa-graduation-cap pull-right"></span>
                     Education
                 </h2>
                 <hr>
@@ -157,8 +159,27 @@
                 </div>
             </div>
         </div>
+        <div class="block row">
+            <div class="col-md-6">
+                <div id="githubfeed"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Find me on Twitter</div>
+                    <div class="panel-wrap">
+                       <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/msuixo" data-widget-id="525287637754454016" data-chrome="noborders noheader">Tweets de @msuixo</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script src="js/github-activity.js"></script>
+    <script>
+        GitHubActivity.feed({ username: "MickaelBergem", selector: "#githubfeed" });
+    </script>
 </body>
 </html>
