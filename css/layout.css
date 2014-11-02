@@ -86,9 +86,12 @@ hr.big-hr {
     width: 80px;
 }
 
+.media [class^=media-description] {
+    text-align: justify;
+}
+
 .media .media-description-sm {
     font-size: 0.9em;
-    text-align: justify;
 }
 
 .media-carousel {
@@ -118,6 +121,10 @@ a.ico-keybase {
 
 .ground-based h2 {
     text-shadow: -1px -1px rgba(46, 46, 46, 0.2);
+}
+
+.ground-based a {
+    border-bottom: 1px dotted #000;
 }
 
 .dated-step .year {
@@ -173,4 +180,8 @@ a.muted-link:hover {
 
 .panel-wrap {
     margin-bottom: -7px;
+}
+
+#education {
+    margin-bottom: 30px;
 }
