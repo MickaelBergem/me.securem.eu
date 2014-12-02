@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/mickaelbergem
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://me.securem.eu
+  * I am mickaelbergem (https://keybase.io/mickaelbergem) on keybase.
+  * I have a public key with fingerprint 7B5F 5866 97C0 96C7 0D5B  787B 7538 871D A7A3 2A62
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7b5f586697c096c70d5b787b7538871da7a32a62",
+            "host": "keybase.io",
+            "key_id": "7538871da7a32a62",
+            "uid": "3695e1a22ac8d6a5a1922d4ef3c0fc00",
+            "username": "mickaelbergem"
+        },
+        "service": {
+            "hostname": "me.securem.eu",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1417532263,
+    "expire_in": 157680000,
+    "prev": "3f35390213ac9d87dfc344c991931376fa2d25a938487eb8ec80e7dda2404b58",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFlkVtIFFEYx2dXLZMEKyIsgpqHxNsy98uqacIWRISUFQSxnpk5s07u7qwzs7tu
+ttZKkvVQQmBmZHQxHzJIpJCIEMpLaWGKRVBhmFQEYRHhWmJnJJ86L4dzvt/3+86f
+05KZgjkdYeH05q4beZJjpD8pYZXxiVg9LulKDHfX4zVwaVO1oA8aIUMLWrgb5yVW
+ZQWOE3mZEDmZJxRW4gVe4llaEHhSATygKcBReAFerZt2B9JIwIQuTUd36ODVFNvz
+Px9eKtCcyEISUBSQBYUDLCBFilIYqNIyocoEYYMmNIIgABEd0OQaAP0SNHwwgMcL
+cFSKaDK0H27PX8agy4Ry2IABFwwjQ8jQLV3W/ahUbVkht91pxUI2GoWS95/EK2lB
+BaVHDRFomJoexN0kImVLs60kQ6IUFMXRBTisC2kG9Go2wfKcQKBlj4ERO5JKs7RI
+UCQNZFEReEWVaYaRRZEUaZLmORVQCsUCkRYYgYeSAGWBgLyiAIohGIkVcDtWbVBH
+bjTKAj7kNDVfEFgoER7POOPYlIo5nNiKNKf9g1jGqqzlf3Wmrpz7viV17ll2W97T
+TuxOVl/zQOOXx9cX3nvu3syscp03ZqKfFn/GsrqsMjNvrGe6gQqMJyNpw4nWis5w
+SUrF1r2qWqhfaB8cBS8/dhbPRk/E1cDXDbeejLamu6oGq5mxspLS+IfShvL6qlEx
+/1W5lPvw8K+hN14De5vm7u8o6U1GM3fm7z46MJlscxk9V9sfXfpc73m95hullPtv
+r2/5U1t4b09ie8pQuD+6mJt9uTfBDxdpHdT+Wc/0/NT8xqaZa8aDnO70i90Txebi
+WuzcwsGmXT8SIxlXWovWHXr3e/XxHUemDlSenDxW1yc3bnuRSD97f19zn/+5158T
+Gfeccv4F
+=Xsbf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mickaelbergem
+
+==================================================================
