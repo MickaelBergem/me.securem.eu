@@ -3,11 +3,16 @@ body {
     padding-bottom: 15px;
 }
 
+header {
+    font-family: 'Raleway', sans-serif;
+}
+
 header.structure-background {
     background-image: linear-gradient(to right, transparent , rgba(253, 253, 253, 0.89)), url(../img/seminaire-design.jpg);
     background-size: cover;
     background-position: center 40%;
     background-repeat: no-repeat;
+    text-shadow: white 0 0 8px;
 }
 
 header .right-and-blur {
