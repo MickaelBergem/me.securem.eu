@@ -138,6 +138,10 @@ a.ico-keybase {
     font-weight: bold;
     margin-top: 0;
 }
+.dated-step h5 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
 
 .list-badges .pill:hover {
     background-color: rgba(248, 165, 83, 0.6);
@@ -184,4 +188,14 @@ a.muted-link:hover {
 
 #education {
     margin-bottom: 30px;
+}
+
+.fx-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.fx-grow {
+    flex-grow: 1;
 }
