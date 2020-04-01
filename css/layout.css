@@ -8,11 +8,13 @@ header {
 }
 
 header.structure-background {
-    background-image: linear-gradient(to right, transparent , rgba(253, 253, 253, 0.89)), url(../img/seminaire-design.jpg);
+    background-image: linear-gradient(to right, transparent , rgba(253, 253, 253, 0.89)), url(../img/canyonlands.jpg);
     background-size: cover;
     background-position: center 40%;
     background-repeat: no-repeat;
     text-shadow: white 0 0 8px;
+
+    position: relative;
 }
 
 header .right-and-blur {
@@ -21,6 +23,30 @@ header .right-and-blur {
 
 header p.lead {
     font-style: italic;
+}
+
+.show-on-hover {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+header:hover > .show-on-hover {
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .corner-message {
+        display: none;
+    }
+}
+
+.corner-message {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 6px;
+    border-top-right-radius: 6px;
+    font-size: small;
+    background-color: rgba(253, 253, 253, 0.89);
 }
 
 .avatar {
