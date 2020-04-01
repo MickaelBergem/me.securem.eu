@@ -235,3 +235,7 @@ a.muted-link:hover {
     font-size: 3em;
     margin-right: 0.5em;
 }
+img.section-icon {
+    width: 3em;
+    margin-right: 0.5em;
+}
